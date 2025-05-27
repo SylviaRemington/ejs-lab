@@ -1,4 +1,9 @@
 /*
+In this lab, you’ll construct a dynamic website for 
+a fictional restaurant, “The Green Byte Bistro.” 
+This hands-on experience is designed to solidify 
+your understanding of using EJS templates with an Express.js application.
+
 What You’ll Build
 You’re going to create a vibrant, interactive website for The Green Byte Bistro. This website will feature:
 
