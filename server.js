@@ -68,8 +68,37 @@ const RESTAURANT = {
 }
 
 //route
+// app.get('/', (req, res) => {
+//   res.send('Hello There!');
+// });
+
 app.get('/', (req, res) => {
-  res.send('Hello There!');
+  res.render('home.ejs');
 });
 
 app.listen(3000);
+
+
+
+
+
+/*
+For question one notes:
+This question is asking you to change the code in your web application 
+(likely written in Node.js with the Express framework) so that when someone 
+visits the homepage of your website (the / route), it displays the home.ejs 
+template file instead of whatever it was showing before.
+
+In plain English:
+"Change the part of your code that controls what shows up on your website's main page. 
+Make it display the home.ejs file (which contains an <h1>Home Page</h1> heading) 
+instead of whatever it was showing previously. 
+After you make this change, when you refresh your browser on the homepage, 
+you should see 'Home Page' as a large heading."
+
+Key things you'd need to do:
+Find the route in your code that handles the / URL (the homepage)
+Modify it to use res.render('home.ejs') instead of whatever response it was sending before
+Ensure you have a home.ejs file in your views folder that contains <h1>Home Page</h1>
+This is a basic task in web development where you're connecting a URL to a specific template/view file.
+*/
