@@ -73,7 +73,9 @@ const RESTAURANT = {
 // });
 
 app.get('/', (req, res) => {
-  res.render('home.ejs');
+  res.render('home.ejs', {
+    msg: 'Welcome to the home page'
+  });
 });
 
 app.listen(3000);
