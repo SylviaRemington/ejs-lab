@@ -85,7 +85,7 @@ app.listen(3000);
 
 
 /*
-For question one notes:
+For question one notes -- so I better understand what exercise is asking of me:
 This question is asking you to change the code in your web application 
 (likely written in Node.js with the Express framework) so that when someone 
 visits the homepage of your website (the / route), it displays the home.ejs 
