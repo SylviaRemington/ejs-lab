@@ -18,6 +18,7 @@ Category Page: Generates pages for each menu type, using route parameters for co
 //set up
 const express = require('express');
 const app = express();
+const port = 3000;
 
 //lab exercise set up
 const RESTAURANT = {
