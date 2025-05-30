@@ -15,12 +15,12 @@ Menu Page: Showcases the menu, sorted into mains, desserts, and sides.
 Category Page: Generates pages for each menu type, using route parameters for content rendering.
 */
 
-//set up
+//Set Up
 const express = require('express');
 const app = express();
 const port = 3000;
 
-//lab exercise set up
+//Lab Exercise Set Up
 const RESTAURANT = {
   name: 'The Green Byte Bistro',
   isOpen: true,
@@ -70,7 +70,7 @@ const RESTAURANT = {
   ]
 }
 
-//route
+//Route
 // app.get('/', (req, res) => {
 //   res.send('Hello There!');
 // });
@@ -81,6 +81,8 @@ app.get('/', (req, res) => {
   });
 });
 
+
+//Listening on Port 3000
 app.listen(3000);
 
 
