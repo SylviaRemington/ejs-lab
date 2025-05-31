@@ -310,5 +310,107 @@ You want the page to load already filled in
 
 You are using Express on the server
 
+*/
+
+
+
+/*MORE INFORMATION OF WHEN & WHERE EJS IS USED:
+
+Yes. EJS is used a lot, especially in Node.js + Express projects.
+
+✅ Where EJS is commonly used:
+Beginner to intermediate web apps using Node/Express
+Small to medium-sized business websites
+Portfolio sites, dashboards, admin panels
+Projects that need simple, server-side rendered pages
+
+❌ Where EJS is not used:
+Large front-end frameworks (like React, Vue, Angular)
+Mobile apps
+Apps that update constantly without reloading the page
+
+📊 Popular?
+Yes — but mostly in:
+Learning environments
+Server-rendered websites
+Projects that don’t need full front-end frameworks
+
+EJS is popular because it’s:
+Easy to learn
+Easy to use with Express
+Good for templating with real data
+
+Let me know if you want a list of companies or types of apps that use EJS.
+
+You said:
+yes list of companies and apps that use EJS
+
+ChatGPT said:
+Yes, EJS is still used in the industry, particularly in projects involving Node.js and Express.
+Reddit
++2
+DEV Community
++2
+Wikipedia
++2
+
+✅ Companies Using EJS
+Several companies have incorporated EJS into their technology stacks:
+Databricks – Senior Software Engineer roles have listed EJS as part of the required skill set.
+Unqork – Utilizes EJS in their full-stack development processes.
+Okta – Employs EJS for server-side rendering in certain applications.
+Pinterest – Has job postings that mention EJS experience.
+Replit – Uses EJS in their workspace infrastructure.
+Dave Inc. – Incorporates EJS in backend development.
+The Krazy Coupon Lady – Utilizes EJS for backend engineering tasks.
+Qwilr – Employs EJS in their software engineering processes.
+
+StackShare
+TheirStack.com
+vetro.ai
++1
+StackShare
++1
+stifirestop.com
++1
+Medium
++1
+Source: Vetro AI
+
+
+🌍 Global Usage
+EJS is used by companies worldwide, including:
+United States: 142 companies
+India: 95 companies
+United Kingdom: 27 companies
+France: 12 companies
+Netherlands: 6 companies
+SOURCE: TheirStack.com
++1
+TheirStack.com
++1
+ejs.co
++17
+TheirStack.com
++17
+TheirStack.com
++17
+Source: TheirStack
+
+
+🛠️ Common Use Cases
+EJS is often used for:
+Rendering dynamic HTML pages on the server side.
+Creating templates that incorporate data from databases.
+Generating HTML content for emails and PDFs.
+Building parts of applications where server-side rendering is preferred.
+Reddit
++1
+Reddit
++1
+
+While modern front-end frameworks like React, Vue, and Angular have become more prevalent, 
+EJS remains a practical choice for certain applications, especially those that benefit 
+from server-side rendering and simpler templating needs.
 
 */
