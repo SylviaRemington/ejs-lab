@@ -128,6 +128,68 @@ You don’t have to wait for anything else to load
 Even if your internet is slow, the full page comes through
 If JavaScript is broken or turned off, the page still works
 
+-------------------
+❓Why use EJS instead of just using JavaScript + DOM?
+Not just speed.
+
+Here is a full list of why developers choose EJS over DOM:
+
+🔹 1. Server Data
+EJS works directly with server data (like users, products, orders).
+DOM can’t access server data unless you write an API and use fetch.
+
+🔹 2. Less Code
+With EJS:
+
+You write one template
+
+You fill it with data
+
+You don’t write DOM commands like createElement, appendChild
+
+DOM requires more code to do the same thing.
+
+🔹 3. No extra requests
+DOM usually needs:
+
+One request for the page
+
+One request for the data (AJAX/fetch)
+
+EJS sends both at the same time.
+
+🔹 4. Works even if JavaScript fails
+EJS creates full HTML before the browser sees it.
+DOM depends on JavaScript working.
+
+🔹 5. Easier to maintain large sites
+When a website has 10,000 products, 5,000 users, or 100 blog posts —
+EJS builds pages based on templates and data.
+
+DOM requires building everything with JavaScript line-by-line.
+
+❓When NOT to use EJS
+You’re not using a server like Express
+
+Your page updates based on user actions (like a to-do list)
+
+You don’t need server data
+
+Then DOM alone is enough.
+
+✅ Summary
+Need	                              Use DOM	Use EJS
+Build page using live server data	      ❌	✅
+Page changes based on user clicks	      ✅	❌
+Want simple site with no server	        ✅	❌
+Build full page before showing	        ❌	✅
+Fewer moving parts, fewer bugs	        ❌	✅
+
+EJS is used for full websites with a server and changing data.
+DOM is used for front-end interactivity.
+
+------------------
+
 ❓Why use EJS?
 Because it saves you time when you have a lot of stuff to show on a web page.
 
