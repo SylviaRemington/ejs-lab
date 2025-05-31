@@ -1,3 +1,4 @@
+// EJS LAB - DUE 5-31-25
 /*
 In this lab, you’ll construct a dynamic website for 
 a fictional restaurant, “The Green Byte Bistro.” 
