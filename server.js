@@ -113,6 +113,8 @@ This is a basic task in web development where you're connecting a URL to a speci
 
 /*
 INFO ABOUT EJS FROM CHATGPT:
+(I was asking about what's the difference between using EJS and DOM, 
+because it seemed initially with my limited knowledge that they were both the same.)
 
 🔴 That’s the difference.
 With EJS: the page is ready before it gets to you.
