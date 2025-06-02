@@ -17,3 +17,5 @@ Showcasing the menu, sorted into mains, desserts, and sides.
 
 ### Category Page:
 Generating pages for each menu type, using route parameters for content rendering.
+
+## Home-Page-Rendering & Full-Menu-Page-Rendering Below:
