@@ -76,9 +76,15 @@ const RESTAURANT = {
 //   res.send('Hello There!');
 // });
 
+// app.get('/', (req, res) => {
+//   res.render('home.ejs', {
+//     msg: 'Welcome to the home page'
+//   });
+// });
+
 app.get('/', (req, res) => {
   res.render('home.ejs', {
-    msg: 'Welcome to the home page'
+    restaurantInfo: 'RESTAURANT'
   });
 });
 
