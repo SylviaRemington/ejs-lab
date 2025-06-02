@@ -5,11 +5,20 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home</title>
+  <!-- <title>Home</title> ORIGINAL TITLE USED IN INITIAL CODE -->
+  <title><%= restaurant.name %></title>
 </head>
 <body>
-  <h1>Home Page</h1>
-  <!-- <p>We are rendering an EJS page!!! Woot woot!</p> -->
-  <p><%= msg %></p>
+  <%- include('partials/nav.ejs') %>
+  
+  <h1><%= restaurant.name %></h1>
+  <p><%= restaurant.address %></p>
+  <p><%= restaurant.phone %></p>
+  
+  <% if (restaurant.isOpen) { %>
+    <p>Yes we are open!</p>
+  <% } else { %>
+    <p>Sorry, we are closed.</p>
+  <% } %>
 </body>
 </html>
