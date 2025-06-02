@@ -16,16 +16,19 @@ Menu Page: Showcases the menu, sorted into mains, desserts, and sides.
 Category Page: Generates pages for each menu type, using route parameters for content rendering.
 */
 
-//Set Up
-//Importing the tools we need
+
+// Set Up
+// Importing the tools we need
 const express = require('express');
 const app = express();
 const port = 3000; //Our website will be at http://localhost:3000
 
+
 // This is where we're telling Express that we're using EJS for our web pages
 app.set('view engine', 'ejs');
 
-//Lab Exercise Set Up
+
+// Lab Exercise Set Up
 // This is our restaurant information... like a menu board
 const RESTAURANT = {
   name: 'The Green Byte Bistro',
@@ -77,6 +80,7 @@ const RESTAURANT = {
   ]
 }
 
+
 // Initial Practice Routes to make sure localhost is working
 // app.get('/', (req, res) => {
 //   res.send('Hello There!');
@@ -88,11 +92,31 @@ const RESTAURANT = {
 //   });
 // });
 
+// Setting up our website pages below:
+
+// Home Page route - when someone visits the main web address
 app.get('/', (req, res) => {
   res.render('home.ejs', {
-    restaurantInfo: 'RESTAURANT'
+    restaurant: RESTAURANT //sending restaurant info to the homepage
   });
 });
+
+// Menu Page route
+app.get('/menu', (req, res) => {
+  res.render('menu.ejs', {
+    menu: RESTAURANT.menu //sending full menu to menu page
+  });
+});
+
+// Category route - like main dishes, desserts, etc
+app.get('/menu/:category', (req, res) => {
+  const categoryItems = RESTAURANT.menu.filter(item => item.category === req.params.category);
+  res.render('category.ejs', {
+    items: categoryItems, //sending filtered items
+    category: req.params.category //sending category name
+  });
+});
+
 
 //Listening on Port 3000
 app.listen(3000);
