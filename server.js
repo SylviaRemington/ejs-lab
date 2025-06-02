@@ -108,7 +108,7 @@ app.get('/menu', (req, res) => { //creating the route that will handle requests 
   });
 });
 
-// Category route - like main dishes, desserts, sides, etc.
+// Category Page route - like main dishes, desserts, sides, etc.
 app.get('/menu/:category', (req, res) => {
   const categoryItems = RESTAURANT.menu.filter(item => item.category === req.params.category);
   res.render('category.ejs', {
