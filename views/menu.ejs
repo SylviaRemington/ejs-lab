@@ -5,7 +5,50 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Menu</title>
 </head>
+
 <body>
+  <%- include('partials/nav') %>
+  
   <h1>Full Menu</h1>
+  
+  <br>
+
+  <h2>Mains</h2>
+  <% menu.forEach(item => { %>
+    <% if (item.category === 'mains') { %>
+      <div>
+        <h3>Delicious Name:<%= item.name %></h3>
+        <p>Price: $<%= item.price %></p>
+        <p>Rating: <%= item.rating %></p>
+        <p>Details: <%= item.details %></p>
+      </div>
+    <% } %>
+  <% }) %>
+  
+  <br>
+
+  <h2>Desserts</h2>
+  <% menu.forEach(item => { %>
+    <% if (item.category === 'desserts') { %>
+      <div>
+        <h3><%= item.name %></h3>
+        <p>$<%= item.price %></p>
+        <p><%= item.details %></p>
+      </div>
+    <% } %>
+  <% }) %>
+
+  <br>
+
+  <h2>Sides</h2>
+  <% menu.forEach(item => { %>
+    <% if (item.category === 'sides') { %>
+      <div>
+        <h3><%= item.name %></h3>
+        <p>$<%= item.price %></p>
+        <p><%= item.details %></p>
+      </div>
+    <% } %>
+  <% }) %>
 </body>
 </html>
