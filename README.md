@@ -18,7 +18,7 @@ Showcasing the menu, sorted into mains, desserts, and sides.
 ### Category Page:
 Generating pages for each menu type, using route parameters for content rendering.
 
-## Home Page & Menu Page Rendering below:
+## Home Page & Menu Page rendering below:
 
 ![Green Byte Bistro Home Page](https://github.com/user-attachments/assets/2b806f83-ea0a-4d04-b237-5ea01e90fc6c)
 
