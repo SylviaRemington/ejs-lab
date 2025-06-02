@@ -54,7 +54,7 @@ const RESTAURANT = {
     },
     { 
       id: 3,
-      name: 'Recursive Rigatoni ...never stop eating it, and become the true Italian you hae always wanted to be!',
+      name: 'Recursive Rigatoni ...never stop eating it, and become the true Italian you have always wanted to be!',
       price: 17.00,
       rating: 5,
       category: 'mains',
