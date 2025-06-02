@@ -17,11 +17,16 @@ Category Page: Generates pages for each menu type, using route parameters for co
 */
 
 //Set Up
+//Importing the tools we need
 const express = require('express');
 const app = express();
-const port = 3000;
+const port = 3000; //Our website will be at http://localhost:3000
+
+// This is where we're telling Express that we're using EJS for our web pages
+app.set('view engine', 'ejs');
 
 //Lab Exercise Set Up
+// This is our restaurant information... like a menu board
 const RESTAURANT = {
   name: 'The Green Byte Bistro',
   isOpen: true,
@@ -67,11 +72,12 @@ const RESTAURANT = {
       rating: 5,
       category: 'sides',
       details: 'Crispy and lightly seasoned string bean fries, served in a pattern for a fun twist.'
-    }
+    },
+    //More menu items could go here if we wanted more menu items
   ]
 }
 
-//Route
+// Initial Practice Routes to make sure localhost is working
 // app.get('/', (req, res) => {
 //   res.send('Hello There!');
 // });
