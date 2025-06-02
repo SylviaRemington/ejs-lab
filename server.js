@@ -62,7 +62,7 @@ const RESTAURANT = {
     },
     { 
       id: 4,
-      name: 'Pumpkin Pi Squared ... for those of you who would rather eat pie than do a math equation',
+      name: 'Pumpkin Pi Squared ...for those of you who would rather eat pie than do a math equation',
       price: 3.14,
       rating: 5,
       category: 'desserts',
@@ -70,7 +70,7 @@ const RESTAURANT = {
     },
     { 
       id: 5,
-      name: 'Fibonacci String Bean Fries',
+      name: 'Fibonacci String Bean Fries ...get so strong from eating them that you can say Fibonacci!',
       price: 11.23,
       rating: 5,
       category: 'sides',
