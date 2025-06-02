@@ -17,7 +17,7 @@
   <% menu.forEach(item => { %>
     <% if (item.category === 'mains') { %>
       <div>
-        <h3>Delicious Name:<%= item.name %></h3>
+        <h3>Delicious Main Dish:<%= item.name %></h3>
         <p>Price: $<%= item.price %></p>
         <p>Rating: <%= item.rating %></p>
         <p>Details: <%= item.details %></p>
@@ -31,9 +31,10 @@
   <% menu.forEach(item => { %>
     <% if (item.category === 'desserts') { %>
       <div>
-        <h3><%= item.name %></h3>
-        <p>$<%= item.price %></p>
-        <p><%= item.details %></p>
+        <h3>Delicious Dessert:<%= item.name %></h3>
+        <p>Price: $<%= item.price %></p>
+        <p>Rating: <%= item.rating %></p>
+        <p>Details: <%= item.details %></p>
       </div>
     <% } %>
   <% }) %>
@@ -44,9 +45,10 @@
   <% menu.forEach(item => { %>
     <% if (item.category === 'sides') { %>
       <div>
-        <h3><%= item.name %></h3>
-        <p>$<%= item.price %></p>
-        <p><%= item.details %></p>
+        <h3>Delicious Side... wait for it... wait for it... wait for your mouth to say 'Yum!':<%= item.name %></h3>
+        <p>Price: $<%= item.price %></p>
+        <p>Rating: <%= item.rating %></p>
+        <p>Details: <%= item.details %></p>
       </div>
     <% } %>
   <% }) %>

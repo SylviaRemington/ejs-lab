@@ -1,0 +1,9 @@
+/* 
+<%- include('menu.ejs') %>
+
+h3 {
+    color:blueviolet
+}; */
+
+/* Trying to add color to the dishes on menu.ejs but don't know how to make it work yet.
+Need more time to research this. */

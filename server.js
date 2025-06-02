@@ -38,7 +38,7 @@ const RESTAURANT = {
   menu: [
     { 
       id: 1,
-      name: 'Quantum Quinoa Mushroom Burger',
+      name: 'Quantum Quinoa Mushroom Burger ...who says a veggie burger has to be boring?!',
       price: 13.00,
       rating: 4,
       category: 'mains',
@@ -46,7 +46,7 @@ const RESTAURANT = {
     },
     { 
       id: 2,
-      name: 'Binary Berry Cheesecake',
+      name: 'Binary Berry Cheesecake ...step away from your computer and Iphone and enjoy this deliciousness!',
       price: 10.11,
       rating: 3,
       category: 'desserts',
@@ -54,7 +54,7 @@ const RESTAURANT = {
     },
     { 
       id: 3,
-      name: 'Recursive Rigatoni',
+      name: 'Recursive Rigatoni ...never stop eating it, and become the true Italian you hae always wanted to be!',
       price: 17.00,
       rating: 5,
       category: 'mains',
@@ -62,7 +62,7 @@ const RESTAURANT = {
     },
     { 
       id: 4,
-      name: 'Pumpkin Pi Squared',
+      name: 'Pumpkin Pi Squared ... for those of you who would rather eat pie than do a math equation',
       price: 3.14,
       rating: 5,
       category: 'desserts',
@@ -101,7 +101,7 @@ app.get('/', (req, res) => {
   });
 });
 
-// Full Menu Page route
+// Menu Page route
 app.get('/menu', (req, res) => { //creating the route that will handle requests to /menu & telling it to render menu.ejs
   res.render('menu.ejs', {
     menu: RESTAURANT.menu //sending full menu to menu page
