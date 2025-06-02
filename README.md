@@ -15,10 +15,10 @@ Displaying key details of the bistro - name, address, and contact info.
 ### Nav Bar
 Including links to various sections of the site.
 
-### Menu Page
+### Full Menu Page
 Showcasing the menu, sorted into mains, desserts, and sides.
 
-### Category Page
+### Category Page - including Main Dishes, Desserts, & Sides
 Generating pages for each menu type, using route parameters for content rendering.
 
 ---
