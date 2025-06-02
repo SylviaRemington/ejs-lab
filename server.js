@@ -101,7 +101,7 @@ app.get('/', (req, res) => {
   });
 });
 
-// Menu Page route
+// Full Menu Page route
 app.get('/menu', (req, res) => { //creating the route that will handle requests to /menu & telling it to render menu.ejs
   res.render('menu.ejs', {
     menu: RESTAURANT.menu //sending full menu to menu page
