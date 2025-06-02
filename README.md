@@ -7,18 +7,18 @@ In this lab, I’ll be constructing a dynamic website for a fictional restaurant
 ## What I’ll Build
 Per assignment verbiage, it states that I will create a vibrant, interactive website for The Green Byte Bistro. In following the mvp of the lab, the website doesn't currently seem to be vibrant; however, that can be changed with further styling in the future.
 
-## This website will feature the following...
+## This website will feature the following:
 
-### Homepage:
+### Homepage
 Displaying key details of the bistro - name, address, and contact info.
 
-### Nav Bar:
+### Nav Bar
 Including links to various sections of the site.
 
-### Menu Page:
+### Menu Page
 Showcasing the menu, sorted into mains, desserts, and sides.
 
-### Category Page:
+### Category Page
 Generating pages for each menu type, using route parameters for content rendering.
 
 ---
