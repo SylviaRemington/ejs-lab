@@ -5,7 +5,8 @@ In this lab, I’ll be constructing a dynamic website for a fictional restaurant
 ---
 
 ## What I’ll Build
-I'm going to create a vibrant, interactive website for The Green Byte Bistro. 
+Per assignment verbiage, it states that I will create a vibrant, interactive website for The Green Byte Bistro. In following the mvp of the lab, the website doesn't currently seem to be vibrant; however, that can be changed with further styling in the future.
+
 This website will feature:
 
 ### Homepage:
