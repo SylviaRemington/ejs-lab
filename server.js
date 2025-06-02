@@ -124,6 +124,7 @@ app.listen(3000);
 
 
 
+// NOTES BELOW ARE JUST FOR ME - adding notes as I went along to understand EJS better
 
 /*
 For question one notes -- so I better understand what exercise is asking of me:
