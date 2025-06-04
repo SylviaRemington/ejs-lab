@@ -1,4 +1,4 @@
-// EJS LAB - DUE 6/2/2025
+// EJS LAB - DUE 6/2/2025 - Turned in 6/2/2025
 /*
 In this lab, you’ll construct a dynamic website for 
 a fictional restaurant, “The Green Byte Bistro.” 
